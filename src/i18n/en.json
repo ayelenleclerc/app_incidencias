@@ -1,0 +1,186 @@
+{
+  "app": {
+    "name": "GestInn",
+    "tagline": "Incident & Maintenance Management"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "incidents": "Incidents",
+    "maintenance": "Maintenance",
+    "users": "Users"
+  },
+  "auth": {
+    "login": "Sign in",
+    "logout": "Sign out",
+    "register": "Register",
+    "username": "Username",
+    "password": "Password",
+    "displayName": "Full name",
+    "confirmPassword": "Confirm password",
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your account to continue",
+    "registerTitle": "Create account",
+    "registerSubtitle": "Fill in your details to register",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "defaultCredentials": "Default credentials: admin / admin123",
+    "errors": {
+      "invalidCredentials": "Invalid username or password",
+      "userExists": "Username already in use",
+      "passwordMismatch": "Passwords do not match",
+      "required": "This field is required",
+      "minLength": "Minimum {{min}} characters"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "System overview",
+    "openIncidents": "Open incidents",
+    "inProgressIncidents": "In progress",
+    "pendingMaintenance": "Pending maintenance",
+    "overdueMaintenance": "Overdue maintenance",
+    "recentActivity": "Recent activity",
+    "incidentsByPriority": "Incidents by priority",
+    "maintenanceByStatus": "Maintenance by status",
+    "incidentsByStatus": "Incidents by status",
+    "noActivity": "No recent activity",
+    "totalIncidents": "Total incidents",
+    "totalMaintenance": "Total maintenance"
+  },
+  "incidents": {
+    "title": "Incidents",
+    "new": "New incident",
+    "edit": "Edit incident",
+    "detail": "Incident detail",
+    "noIncidents": "No incidents",
+    "noIncidentsDesc": "Create the first incident to start managing it",
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "priority": "Priority",
+      "status": "Status",
+      "category": "Category",
+      "assignedTo": "Assigned to",
+      "createdAt": "Created at",
+      "resolvedAt": "Resolved at",
+      "notes": "Notes / Comments",
+      "createdBy": "Created by",
+      "updatedAt": "Last updated"
+    },
+    "status": {
+      "abierta": "Open",
+      "en_progreso": "In progress",
+      "resuelta": "Resolved",
+      "cerrada": "Closed"
+    },
+    "priority": {
+      "alta": "High",
+      "media": "Medium",
+      "baja": "Low"
+    },
+    "addNote": "Add note",
+    "notePlaceholder": "Write a note or comment...",
+    "resolve": "Resolve",
+    "close": "Close",
+    "reopen": "Reopen",
+    "deleteConfirm": "Delete this incident?",
+    "deleteConfirmDesc": "This action cannot be undone."
+  },
+  "maintenance": {
+    "title": "Maintenance",
+    "new": "New maintenance",
+    "edit": "Edit maintenance",
+    "detail": "Maintenance detail",
+    "noMaintenance": "No maintenance tasks",
+    "noMaintenanceDesc": "Plan the first preventive maintenance task",
+    "fields": {
+      "title": "Title",
+      "description": "Description",
+      "frequency": "Frequency",
+      "responsible": "Responsible",
+      "nextDueDate": "Next due date",
+      "lastCompletedDate": "Last completed",
+      "status": "Status",
+      "equipment": "Equipment / Asset",
+      "area": "Area",
+      "createdAt": "Created at"
+    },
+    "status": {
+      "pendiente": "Pending",
+      "en_progreso": "In progress",
+      "completado": "Completed",
+      "vencido": "Overdue"
+    },
+    "frequency": {
+      "diario": "Daily",
+      "semanal": "Weekly",
+      "mensual": "Monthly",
+      "trimestral": "Quarterly",
+      "anual": "Annual"
+    },
+    "complete": "Mark as completed",
+    "daysOverdue": "{{days}} days overdue",
+    "daysUntil": "In {{days}} days",
+    "dueToday": "Due today",
+    "deleteConfirm": "Delete this maintenance task?",
+    "deleteConfirmDesc": "This action cannot be undone."
+  },
+  "users": {
+    "title": "User management",
+    "new": "New user",
+    "edit": "Edit user",
+    "noUsers": "No users",
+    "fields": {
+      "username": "Username",
+      "displayName": "Full name",
+      "role": "Role",
+      "createdAt": "Registered",
+      "password": "New password"
+    },
+    "roles": {
+      "admin": "Administrator",
+      "usuario": "User"
+    },
+    "deleteConfirm": "Delete this user?",
+    "deleteConfirmDesc": "This action cannot be undone.",
+    "cannotDeleteSelf": "You cannot delete your own account",
+    "cannotDeleteLastAdmin": "You cannot delete the only administrator"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "create": "Create",
+    "search": "Search...",
+    "filter": "Filter",
+    "clearFilters": "Clear filters",
+    "export": "Export",
+    "exportCSV": "Export CSV",
+    "exportPDF": "Export PDF",
+    "all": "All",
+    "none": "-",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "confirm": "Confirm",
+    "back": "Back",
+    "actions": "Actions",
+    "noResults": "No results",
+    "noResultsDesc": "Try changing your filters or search term",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode",
+    "language": "Language",
+    "notifications": "Notifications",
+    "markAllRead": "Mark all as read",
+    "noNotifications": "No notifications",
+    "from": "From",
+    "to": "To",
+    "required": "Required",
+    "optional": "Optional",
+    "total": "Total",
+    "createdAt": "Created",
+    "updatedAt": "Updated"
+  }
+}

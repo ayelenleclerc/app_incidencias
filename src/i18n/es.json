@@ -1,0 +1,186 @@
+{
+  "app": {
+    "name": "GestInn",
+    "tagline": "Gestión de Incidencias y Mantenimiento"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "incidents": "Incidencias",
+    "maintenance": "Mantenimientos",
+    "users": "Usuarios"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "logout": "Cerrar sesión",
+    "register": "Registrarse",
+    "username": "Usuario",
+    "password": "Contraseña",
+    "displayName": "Nombre completo",
+    "confirmPassword": "Confirmar contraseña",
+    "loginTitle": "Bienvenido",
+    "loginSubtitle": "Accede a tu cuenta para continuar",
+    "registerTitle": "Crear cuenta",
+    "registerSubtitle": "Completa los datos para registrarte",
+    "noAccount": "¿No tienes cuenta?",
+    "hasAccount": "¿Ya tienes cuenta?",
+    "defaultCredentials": "Credenciales por defecto: admin / admin123",
+    "errors": {
+      "invalidCredentials": "Usuario o contraseña incorrectos",
+      "userExists": "El nombre de usuario ya está en uso",
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "required": "Este campo es obligatorio",
+      "minLength": "Mínimo {{min}} caracteres"
+    }
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "subtitle": "Resumen general del sistema",
+    "openIncidents": "Incidencias abiertas",
+    "inProgressIncidents": "En progreso",
+    "pendingMaintenance": "Mantenimientos pendientes",
+    "overdueMaintenance": "Mantenimientos vencidos",
+    "recentActivity": "Actividad reciente",
+    "incidentsByPriority": "Incidencias por prioridad",
+    "maintenanceByStatus": "Mantenimientos por estado",
+    "incidentsByStatus": "Incidencias por estado",
+    "noActivity": "No hay actividad reciente",
+    "totalIncidents": "Total incidencias",
+    "totalMaintenance": "Total mantenimientos"
+  },
+  "incidents": {
+    "title": "Incidencias",
+    "new": "Nueva incidencia",
+    "edit": "Editar incidencia",
+    "detail": "Detalle de incidencia",
+    "noIncidents": "No hay incidencias",
+    "noIncidentsDesc": "Crea la primera incidencia para empezar a gestionarla",
+    "fields": {
+      "title": "Título",
+      "description": "Descripción",
+      "priority": "Prioridad",
+      "status": "Estado",
+      "category": "Categoría",
+      "assignedTo": "Asignado a",
+      "createdAt": "Fecha creación",
+      "resolvedAt": "Fecha resolución",
+      "notes": "Notas / Comentarios",
+      "createdBy": "Creado por",
+      "updatedAt": "Última actualización"
+    },
+    "status": {
+      "abierta": "Abierta",
+      "en_progreso": "En progreso",
+      "resuelta": "Resuelta",
+      "cerrada": "Cerrada"
+    },
+    "priority": {
+      "alta": "Alta",
+      "media": "Media",
+      "baja": "Baja"
+    },
+    "addNote": "Añadir nota",
+    "notePlaceholder": "Escribe una nota o comentario...",
+    "resolve": "Resolver",
+    "close": "Cerrar",
+    "reopen": "Reabrir",
+    "deleteConfirm": "¿Eliminar esta incidencia?",
+    "deleteConfirmDesc": "Esta acción no se puede deshacer."
+  },
+  "maintenance": {
+    "title": "Mantenimientos",
+    "new": "Nuevo mantenimiento",
+    "edit": "Editar mantenimiento",
+    "detail": "Detalle de mantenimiento",
+    "noMaintenance": "No hay mantenimientos",
+    "noMaintenanceDesc": "Planifica el primer mantenimiento preventivo",
+    "fields": {
+      "title": "Título",
+      "description": "Descripción",
+      "frequency": "Frecuencia",
+      "responsible": "Responsable",
+      "nextDueDate": "Próxima fecha",
+      "lastCompletedDate": "Última realización",
+      "status": "Estado",
+      "equipment": "Equipo / Activo",
+      "area": "Área",
+      "createdAt": "Fecha creación"
+    },
+    "status": {
+      "pendiente": "Pendiente",
+      "en_progreso": "En progreso",
+      "completado": "Completado",
+      "vencido": "Vencido"
+    },
+    "frequency": {
+      "diario": "Diario",
+      "semanal": "Semanal",
+      "mensual": "Mensual",
+      "trimestral": "Trimestral",
+      "anual": "Anual"
+    },
+    "complete": "Marcar completado",
+    "daysOverdue": "{{days}} días de retraso",
+    "daysUntil": "En {{days}} días",
+    "dueToday": "Vence hoy",
+    "deleteConfirm": "¿Eliminar este mantenimiento?",
+    "deleteConfirmDesc": "Esta acción no se puede deshacer."
+  },
+  "users": {
+    "title": "Gestión de usuarios",
+    "new": "Nuevo usuario",
+    "edit": "Editar usuario",
+    "noUsers": "No hay usuarios",
+    "fields": {
+      "username": "Usuario",
+      "displayName": "Nombre completo",
+      "role": "Rol",
+      "createdAt": "Fecha registro",
+      "password": "Nueva contraseña"
+    },
+    "roles": {
+      "admin": "Administrador",
+      "usuario": "Usuario"
+    },
+    "deleteConfirm": "¿Eliminar este usuario?",
+    "deleteConfirmDesc": "Esta acción no se puede deshacer.",
+    "cannotDeleteSelf": "No puedes eliminar tu propia cuenta",
+    "cannotDeleteLastAdmin": "No puedes eliminar el único administrador"
+  },
+  "common": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "view": "Ver",
+    "create": "Crear",
+    "search": "Buscar...",
+    "filter": "Filtrar",
+    "clearFilters": "Limpiar filtros",
+    "export": "Exportar",
+    "exportCSV": "Exportar CSV",
+    "exportPDF": "Exportar PDF",
+    "all": "Todos",
+    "none": "-",
+    "loading": "Cargando...",
+    "error": "Error",
+    "success": "Éxito",
+    "confirm": "Confirmar",
+    "back": "Volver",
+    "actions": "Acciones",
+    "noResults": "Sin resultados",
+    "noResultsDesc": "Prueba a cambiar los filtros o el término de búsqueda",
+    "darkMode": "Modo oscuro",
+    "lightMode": "Modo claro",
+    "language": "Idioma",
+    "notifications": "Notificaciones",
+    "markAllRead": "Marcar todas como leídas",
+    "noNotifications": "Sin notificaciones",
+    "from": "Desde",
+    "to": "Hasta",
+    "required": "Obligatorio",
+    "optional": "Opcional",
+    "total": "Total",
+    "createdAt": "Creado",
+    "updatedAt": "Actualizado"
+  }
+}
